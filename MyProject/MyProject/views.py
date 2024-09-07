@@ -6,7 +6,7 @@ def home(request):
     return render(request, 'website/index.html')
 
 def about(request):
-    return HttpResponse("Hello About World")
+    return render
 
 
 def contact(request):
